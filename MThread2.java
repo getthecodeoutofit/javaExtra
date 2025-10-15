@@ -21,7 +21,7 @@ public class MThread2 extends Thread {
         System.out.println(o.getState());
         o.join();
         System.out.println(o.getState());
-        A t= hey();
+        A t=hey();
         t.join();
 
     }
