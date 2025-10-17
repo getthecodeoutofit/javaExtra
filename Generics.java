@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Generics {
     public static void main(String[] args) {
-        ArrayList l = new ArrayList();
+        ArrayList _ = new ArrayList();
         //Not type safe 
         //we can store any type of element
         //no compile time checking
@@ -57,6 +57,7 @@ class C<T> implements InnerGenerics<T>{
     }
 
 }
+
 
 //Bounded Type Parameter (use Conditions)
 class D <T extends Number>{//we have put the boundation
