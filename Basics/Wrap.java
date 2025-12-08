@@ -1,3 +1,4 @@
+package Basics;
 public class Wrap {
     public static void main(String[] args) {
         //allow primited values to used as object
