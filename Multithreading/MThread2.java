@@ -1,3 +1,4 @@
+package Multithreading;
 public class MThread2 extends Thread {
     
     @Override

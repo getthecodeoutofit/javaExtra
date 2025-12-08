@@ -1,3 +1,4 @@
+package Multithreading;
 class MThread{
     public static void main(String []arg){
         A aobj = new A();

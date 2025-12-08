@@ -1,3 +1,4 @@
+package OOPS;
 import java.util.ArrayList;
 
 public class GenericsEnum {
@@ -6,9 +7,7 @@ public class GenericsEnum {
         System.out.println(d);
         int a = 10;
         //Double c = a.doubleValue();
-        
     }
-    
 }
 
 enum DAY{
@@ -39,6 +38,14 @@ class C{
     void hey(ArrayList<?> list){ // only performing read operation
 
     }
+
+    double add(ArrayList<? extends Double> a){// can only accepts double arraylsit
+
+        double sum=0;
+        return sum;
+
+    }
 }
+
 
 
