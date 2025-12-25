@@ -1,5 +1,6 @@
 package OOPS;
 
+import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
@@ -57,5 +58,17 @@ class Dog{
 
 @Retention(RetentionPolicy.RUNTIME) //it tells java to keep this anno while running the program
 @interface CustomAnnotation{
+    
+
+}
+
+@interface MethodMy{
+    int times() default 1;//specified like funtion but taken as variable it return the value we pass in
+}
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+@interface AnnoField{
+    
 
 }
