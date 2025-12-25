@@ -1,9 +1,10 @@
 package OOPS;
 import java.util.ArrayList;
-
+@SuppressWarnings("all")
 public class Generics {
     public static void main(String[] args) {
-        ArrayList _ = new ArrayList();
+        @SuppressWarnings("unused")
+        ArrayList a = new ArrayList();
         //Not type safe 
         //we can store any type of element
         //no compile time checking

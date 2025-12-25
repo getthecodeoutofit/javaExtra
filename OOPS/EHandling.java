@@ -1,4 +1,5 @@
 package OOPS;
+@SuppressWarnings("all")
 class EHandling{
 
     public static void main(String[] args) {

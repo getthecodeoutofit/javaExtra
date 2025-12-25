@@ -5,7 +5,9 @@ public class GenericsEnum {
     public static void main(String[] args) {
         DAY d = DAY.SAT;
         System.out.println(d);
-        int a = 10;
+        
+        @SuppressWarnings("unused")
+        int _a = 10;
         //Double c = a.doubleValue();
     }
 }

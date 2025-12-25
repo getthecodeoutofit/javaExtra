@@ -1,4 +1,6 @@
 package Multithreading;
+
+@SuppressWarnings("all")
 public class MThread2 extends Thread {
     
     @Override
@@ -48,9 +50,12 @@ class A extends Thread{
 
 
 }
+class C{
+
+}
 
 
-class B extends A implements Runnable{ // here A is base class here we can't use Thread or extends thread because java doesnot support multiple inheritance thatswhy we use Runnable interface
+class B extends C implements Runnable{ // here A is base class here we can't use Thread or extends thread because java doesnot support multiple inheritance thatswhy we use Runnable interface
 // but now we have to Override the Run method and it is necessary as Runnable is abstract 
 @Override
 public void run(){

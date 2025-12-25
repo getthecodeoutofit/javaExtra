@@ -25,8 +25,9 @@ public class Strings{
     }
 
 
+    @SuppressWarnings("all")
     public static void main(String[] args) {
-        int _ = 10;
+        int i = 10;
         String name = "Ravi"; // stored in string pool in heap memory
         System.out.println(name);
         String a  = new String("ravi");

@@ -42,5 +42,10 @@ class AgeException extends Exception{
 
 }
 
+//we cannot extends with throwable because of the convention
+
+
+
+
 
 
